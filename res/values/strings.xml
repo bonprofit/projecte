@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BonProfit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_carta">Carta</string>
+    <string name="title_activity_llistadeplats">Llistadeplats</string>
+    <string name="Nlogin">Nom</string>
+    <string name="Plogin">Contrasenya</string>
+    <string name="Elogin">Entra</string>
+    <string name="title_activity_llistacomentaris">Llistacomentaris</string>
+    <string name="title_activity_afegircomentari">Afegircomentari</string>
+    <string name="Tema">Tema</string>
+    <string name="Afegir">Afegir Comentari</string>
+    <string name="Descripcio">Descripció</string>
+    <string name="Titol">Títol</string>
+
+</resources>

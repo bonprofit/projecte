@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Login" 
+    android:background="@drawable/login">
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="62dp"
+        android:layout_marginRight="34dp"
+        android:background="@drawable/fonsboto"
+        android:onClick="btnEntrar"
+        android:text="@string/Elogin"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editContra"
+        android:layout_alignBottom="@+id/editContra"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="@string/Plogin"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editNom"
+        android:layout_alignBottom="@+id/editNom"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Nlogin"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editContra"
+        android:textColor="#DF3A01"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEntrar"
+        android:layout_alignLeft="@+id/editNom"
+        android:layout_marginBottom="26dp"
+        android:background="#00000000"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:textColor="#DF3A01"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editContra"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#00000000"
+        android:textStyle="bold"
+        android:ems="10" />
+
+
+
+        <requestFocus />
+    
+
+</RelativeLayout>

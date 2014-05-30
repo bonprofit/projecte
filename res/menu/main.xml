@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+ 	<item
+        android:id="@+id/Home"
+        android:orderInCategory="100"
+        android:icon="@drawable/home"
+        android:showAsAction="always"
+        android:title="Home"/>
+ 	
+	    
+    <item
+        android:id="@+id/Llengua"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/llengua"
+        android:title="Llengua"/>
+    
+    
+       <item
+        android:id="@+id/Comentaris"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/comentari"
+        android:title="Comentaris"/>
+    
+    
+    <item
+        android:id="@+id/Sortir"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/sortir"
+        android:title="Sortir"/>
+    
+    
+   
+    
+    
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BonProfit</string>
+    <string name="title_activity_login">Anmelden</string>
+    <string name="title_activity_carta">Schreiben</string>
+    <string name="title_activity_llistadeplats">Liste der Gerichte</string>
+  	<string name="Nlogin">Name</string>
+	<string name="Plogin">Passwort</string>
+	<string name="Elogin">eingeben</string>
+	<string name="title_activity_llistacomentaris">Liste der Bewertungen</string>
+    <string name="title_activity_afegircomentari">Einen Kommentar hinzufügen</string>
+    <string name="Tema">Thema</string>
+    <string name="Afegir">Einen Kommentar hinzufügen</string>
+    <string name="Descripcio">Beschreibung</string>
+    <string name="Titol">Titel</string>
+</resources>
